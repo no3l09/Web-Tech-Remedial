@@ -146,7 +146,7 @@ function getData() {
             });
 
 			//Adding Sorting Buttons to sortBtns container
-			let buttons = "<input type='button' value='Sort By Name A to Z' class='sortBtn' onclick='sortNameA()'><input type='button' value='Sort By Name A to Z' class='sortBtn' onclick='sortNameZ()'><input type='button' value='Sort By Age Ascending' class='sortBtn' onclick='sortAge()'><input type='button' value='Sort By Age descending' class='sortBtn' onclick='sortAgedec()'>";
+			let buttons = "<input type='button' value='Sort By Name A to Z' class='sortBtn' onclick='sortNameA()'><input type='button' value='Sort By Name Z to A' class='sortBtn' onclick='sortNameZ()'><input type='button' value='Sort By Age Ascending' class='sortBtn' onclick='sortAge()'><input type='button' value='Sort By Age descending' class='sortBtn' onclick='sortAgedec()'>";
             //Show On Our Screen All Data
 			document.querySelector('.shortBtns').innerHTML = buttons;
             document.getElementById('output').innerHTML = output;
