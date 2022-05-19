@@ -87,6 +87,11 @@
 	font-size:20px;
 	letter-spacing:0;
 }
+.list-group-item{
+	color: #004690;
+	padding: 25px;
+	font-size: 20px;
+}
 
 .btn {
 	padding: 10px, 12px;
